@@ -7,7 +7,6 @@
 - Senior Software Engineer at _INVIVOO_
 - xcomponent.com
 - Github / Twitter _@nicolaserny_
-- Blog posts: dev.to/nicolaserny
 
 ![inline,right,40%](invivoo-logo.png)
 
@@ -22,6 +21,8 @@
 
 The modern way to build<br> [**websites** & _apps_]<br> that delivers better performance
 
+^ Term created by Mathias Biilmann - 2016
+
 ---
 
 # Jamstack?
@@ -31,16 +32,22 @@ The modern way to build<br> [**websites** & _apps_]<br> that delivers better p
 
 ##[fit] **Jamstack** = _Javascript_ + Api + _Markup_ Stack
 
+^ Not a new framework but a philosophy
+Acronym
+
 ---
 
 # Core principles #1
 
 ## _Pre-rendering_
 
+- _Client side_ vs SSR vs _SSG_
 - Prebuilt into highly optimized static pages and assets
 - Deploy to _CDN_
-- _Client side_ vs SSR vs _SSG_
 - Only for static sites?
+
+^ client side: white page in the browser -> load JS -> render
+CDN => close to users / reduce latency / static resources
 
 ---
 
@@ -50,15 +57,14 @@ The modern way to build<br> [**websites** & _apps_]<br> that delivers better p
 
 - Use of APIs
 - Flexibility
-- Realtime data
 
 ---
 
 # Why Jamstack?
 
+- Performance
 - Security
 - Scalability
-- Performance
 - Maintainability
 - Portability
 - Developer experience
@@ -69,6 +75,8 @@ The modern way to build<br> [**websites** & _apps_]<br> that delivers better p
 
 ![inline](traditional-vs-jamstack.png)
 
+^ Most React/Vue/Angular projects use the Jamstack approach (except pre-rendering)
+
 ---
 
 ## The _future_ is highly distributed
@@ -78,6 +86,8 @@ The modern way to build<br> [**websites** & _apps_]<br> that delivers better p
 # _Jamstack_ architecture
 
 ![inline](architecture.png)
+
+^ Data lives in the CI too!
 
 ---
 
